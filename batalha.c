@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Programa: Batalha Naval com Habilidades Especiais
-// Autor: (Seu nome)
-// Descrição: Este programa mostra o tabuleiro de uma batalha naval 10x10
+// tabuleiro de uma batalha naval 10x10
 // com habilidades especiais (Cone, Cruz e Octaedro) aplicadas sobre ele.
 // Cada habilidade afeta uma área específica do tabuleiro e é exibida de forma visual.
 
@@ -123,7 +121,7 @@ void aplicarHabilidade(int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO], int habilida
 
                 if (linha >= 0 && linha < TAM_TABULEIRO && coluna >= 0 && coluna < TAM_TABULEIRO) {
                     if (tabuleiro[linha][coluna] == 0) {
-                        tabuleiro[linha][coluna] = 5; // 5 representa área afetada
+                        tabuleiro[linha][coluna] = 5; // 5 área afetada
                     }
                 }
             }
